@@ -13,7 +13,7 @@ elements = ["hydrogen" , "helium" , "lithium" , "beryllium" , "boron" , "carbon"
 def get_valid_int_input(prompt):
     while True:
         try:
-            return int(input(print))
+            return int(input(prompt))
         except ValueError:
             print(" Error :Please enter an integer")
             continue
