@@ -10,3 +10,10 @@ elements = ["hydrogen" , "helium" , "lithium" , "beryllium" , "boron" , "carbon"
 #
 # say_greeting("sakshat")
 
+def get_valid_int_input(prompt):
+    while True:
+        try:
+            return int(input(print))
+        except ValueError:
+            print(" Error :Please enter an integer")
+            continue
